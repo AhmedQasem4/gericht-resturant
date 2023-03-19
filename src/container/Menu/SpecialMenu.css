@@ -1,0 +1,29 @@
+.app__specialmenu{
+    background-color: var(--color-black);
+}
+
+.app__specialmenu-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__specialmenu-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.app__specialmenu-body img{
+    width: 410px;
+}
+
+.app__specialmenu-freshfruits_heading{
+    color: var(--color-white);
+    font-size: 2rem;
+    font-family: var(--font-base);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

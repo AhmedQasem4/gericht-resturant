@@ -8,7 +8,7 @@ const AboutUs = () => (
       <img src={images.G} alt="G logo" />
     </div>
     <div className="app__aboutus-content">
-      <div className="app__aboutus-content-about">
+      <div className="app__aboutus-content_about">
         <h1 className="headtext__cormorant">About Us</h1>
         <img src={images.spoon} alt="spoon logo" className="spoon__img" />
         <p className="p__opensans">
@@ -21,7 +21,7 @@ const AboutUs = () => (
       <div className="app__aboutus-content_knife">
         <img src={images.knife} alt="" />
       </div>
-      <div className="app__aboutus-content-history">
+      <div className="app__aboutus-content_history">
         <h1 className="headtext__cormorant">Our History</h1>
         <img src={images.spoon} alt="spoon logo" className="spoon__img" />
         <p className="p__opensans">

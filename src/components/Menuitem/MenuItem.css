@@ -1,0 +1,18 @@
+.app__menuitem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuitem__line{
+    width: 90px;
+    height: 2px;
+    background-color: gold;
+    margin: 0 1rem;
+}
+
+.app__menuitem-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
