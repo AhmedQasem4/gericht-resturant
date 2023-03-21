@@ -1,0 +1,22 @@
+.app__award{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.app__award img{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.app__award-content p:first-child{
+    color: var(--color-golden);
+}
+
+@media screen and (max-width: 1150px){
+    .app__award p{
+        font-size: 1.5rem;
+    }
+}
