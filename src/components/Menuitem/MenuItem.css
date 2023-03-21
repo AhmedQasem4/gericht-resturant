@@ -16,3 +16,15 @@
     align-items: center;
 }
 
+@media screen and (max-width: 1150px){
+    .app__menuitem h1{
+        font-size: 4rem;
+    }
+}
+
+
+@media screen and (max-width: 660px){
+    .app__menuitem h1{
+        font-size: 2rem;
+    }
+}

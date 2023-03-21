@@ -10,7 +10,7 @@ const SpecialMenu = () => (
       <SubHeading title="Menu That Fits Your Palate" />
       <h1 className='headtext__cormorant'>Today's special</h1>
     </div>
-    <div className="app__specialmenu-body">
+    <div className="app__specialmenu-body section__padding">
       <div className="app__specialmenu-freshfruits">
         <h1 className='app__specialmenu-freshfruits_heading'>Fresh Fruits</h1>
         <MenuItem name="Orange" kind="bottle" price="10$" />
@@ -27,12 +27,12 @@ const SpecialMenu = () => (
       <MenuItem name="tea" kind="cup" price="3$" />
         <MenuItem name="coffe"  kind="cup" price="6$"/>
         <MenuItem name="orchid"  kind="bottle" price="10$"/>
-        <MenuItem name="coffe with milk" kind="cup" price="10$"/>
-        <MenuItem name="hot lemon"  kind="bottle" price="8$"/>
+        <MenuItem name="coffe" kind="cup" price="10$"/>
+        <MenuItem name="lemon"  kind="bottle" price="8$"/>
       </div>
     </div>
     <div className="app__specialmenu-footer">
-      <button className="custom__button">View More</button>
+      <button className="custom__button special__menu-button">View More</button>
     </div>
   </div>
 );

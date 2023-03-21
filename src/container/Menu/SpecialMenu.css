@@ -13,7 +13,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .app__specialmenu-body img{
     width: 410px;
@@ -26,4 +25,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.app__specialmenu-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 1150px){
+    .app__specialmenu , .app__specialmenu-body{
+        flex-direction: column;
+    }
+    .app__specialmenu-body img{
+        width: 100%;
+        margin: 3rem 0;
+    }
+}
+@media screen and (max-width: 650px){
+    .app__specialmenu h1{
+        font-size: 2rem;
+    }
 }
