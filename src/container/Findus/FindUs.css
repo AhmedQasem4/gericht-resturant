@@ -1,0 +1,42 @@
+.app__findus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app__findus-image{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    flex: 1 ;
+}
+
+.app__findus-image img{
+    width: 70%;
+}
+
+.opening__hours{
+    margin: 2rem 0;
+}
+.opening__hours-heading{
+    font-size: 1.5rem;
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 1150px){
+    .app__findus{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .app__findus-image{
+        width: 100%;
+    }
+    .app__findus-image img{
+        width: 100%;
+        margin-top: 3rem;
+    }
+}
+

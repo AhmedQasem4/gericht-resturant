@@ -1,0 +1,4 @@
+.app__photogallery{
+    display: flex;
+    background-color: var(--color-black);
+}
