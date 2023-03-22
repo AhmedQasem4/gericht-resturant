@@ -10,7 +10,7 @@ const SpecialMenu = () => (
       <SubHeading title="Menu That Fits Your Palate" />
       <h1 className='headtext__cormorant'>Today's special</h1>
     </div>
-    <div className="app__specialmenu-body section__padding">
+    <div className="app__specialmenu-body">
       <div className="app__specialmenu-freshfruits">
         <h1 className='app__specialmenu-freshfruits_heading'>Fresh Fruits</h1>
         <MenuItem name="Orange" kind="bottle" price="10$" />
